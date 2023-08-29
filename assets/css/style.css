@@ -87,3 +87,46 @@
     margin-top: 20px;
 
 }
+.recentM .container{
+    margin: auto;
+    max-width: 1000px;
+    padding: 0px 20px 0px 20px;
+}
+.recentM .container h2{
+    margin-top: 21px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    letter-spacing: -0.24px;
+}
+.recentM .recent{
+    margin-top: 15px;
+}
+.recentM .pure-pop{
+    margin-top: 8px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: -1px;
+}
+.recentM .pop-sound{
+    margin-top: 4px;
+    color: #908F94;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: -1px;
+}
+.recentM .recent{
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+.recentM .recent:last-child{
+    margin-right: 0;
+}
