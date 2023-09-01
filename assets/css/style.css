@@ -203,3 +203,56 @@
     display: flex;
     margin-top: 14px;
 }
+.playlist{
+    width: 100%;
+    height: 64px;
+    background: #EDEDED;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+.playlist .left{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.playlist .right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.playlist .left p{
+    margin-left: 14px;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: -0.24px;
+}
+.playlist .right svg:last-child{
+    margin-left: 14px;
+}
+.playlist .right img{
+    background-color: red;
+}
+.menu{
+    width: 100%;
+    height: 83px;
+    /* background-color: red; */
+    fill: rgba(249, 249, 249, 0.94);
+    display: flex;
+    justify-content: space-around;
+}
+.menu .item1 p{
+    color: #999;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
