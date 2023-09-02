@@ -76,7 +76,7 @@
     margin-top: 6px;
 }
 .bestM picture img{
-    height: 250px;
+    /* height: 250px; */
     margin-top: 13px;
 }
 .bestM .container::after{
@@ -121,6 +121,7 @@
     font-weight: 500;
     line-height: 20px; /* 133.333% */
     letter-spacing: -1px;
+    margin-bottom: 18px;
 }
 .recentM .recent{
     float: left;
@@ -149,7 +150,7 @@
     display: block;
     height: 1px;
     background: #EBEBEB;
-    margin-top: 570px;
+    /* margin-top: 570px; */
     clear: both;
 }
 .nextM .beat-pop{
@@ -193,6 +194,7 @@
 }
 .nextM .next-tit{
     margin-left: 10px;
+    width: 100%;
 }
 .nextM .next img{
     width: 102px;
